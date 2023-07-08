@@ -106,6 +106,10 @@ main {
 
 .carrier-item {
     display: flex;
+    // gap: 20px;
+    // justify-content: space-between;
+    
+
     .carrier-year {
         white-space: nowrap;
         width: 20%;
@@ -138,22 +142,14 @@ main {
         margin: 0 auto;
         margin-top: 30px;
     }
-    // .carrier-list {
-    //     list-style-type: disc;
-    // }
     .carrier-item {
         display: block;
-        padding: 10px 0;
-        &:first-of-type {
-            padding: 0 0 10px;
-        }
-        // list-style-type: disc;
         .carrier-year {
-            // list-style-type: disc;
             width: 100%;
         }
         .carrier-content {
-            width: 100%;
+            width: 80%;
         }
+    
     }
 }

@@ -144,9 +144,7 @@ main {
     .carrier-item {
         display: block;
         padding: 10px 0;
-        &:first-of-type {
-            padding: 0 0 10px;
-        }
+        &::fi
         // list-style-type: disc;
         .carrier-year {
             // list-style-type: disc;
