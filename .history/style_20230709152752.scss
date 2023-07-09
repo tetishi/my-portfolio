@@ -138,6 +138,9 @@ main {
         margin: 0 auto;
         margin-top: 30px;
     }
+    // .carrier-list {
+    //     list-style-type: disc;
+    // }
     .carrier-item {
         display: block;
         padding: 10px 0;
@@ -145,6 +148,7 @@ main {
             padding: 0 0 10px;
         }
         .carrier-year {
+            // list-style-type: disc;
             width: 100%;
         }
         .carrier-content {
