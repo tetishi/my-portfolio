@@ -1,0 +1,182 @@
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: #37352F;
+}
+
+a {
+  color: #7A7975;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+
+h2 {
+  background-color: #AAC8E9;
+  font-size: 1.5rem;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+p {
+  line-height: 2;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #ffffff;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 3px 3px -3px rgba(0, 0, 0, 0.2);
+}
+header .logo {
+  width: 150px;
+}
+
+.header-inner {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-ul {
+  display: flex;
+}
+
+.header-li {
+  padding-left: 40px;
+}
+.header-li a {
+  color: #37352F;
+}
+
+.mobile-menu_btn {
+  display: none;
+}
+
+.mobile-header {
+  transform: translateX(100%);
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+main {
+  max-width: 800px;
+  width: 80%;
+  margin: 150px auto;
+}
+
+.sub-tit {
+  margin-top: 70px;
+  margin-bottom: -60px;
+}
+
+.info-tit {
+  margin: 30px 0 10px 0;
+}
+
+.work {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.work img {
+  max-height: 300px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  display: block;
+}
+.work .d-flex img {
+  max-width: 450px;
+  width: 70%;
+}
+
+.details {
+  margin-top: 30px;
+}
+
+.people {
+  height: 200px;
+  width: 20%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 50px;
+}
+
+.carrier-item {
+  display: flex;
+}
+.carrier-item .carrier-year {
+  white-space: nowrap;
+  width: 20%;
+}
+.carrier-item .carrier-content {
+  width: 80%;
+}
+
+@media all and (max-width: 650px) {
+  main {
+    width: 90%;
+    margin: 100px auto;
+  }
+  .d-flex {
+    display: block;
+  }
+  .d-none {
+    display: block;
+  }
+  .d-block {
+    display: none !important;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .people {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .carrier-item {
+    display: block;
+    padding: 10px 0;
+  }
+  .carrier-item:first-of-type {
+    padding: 0 0 10px;
+  }
+  .carrier-item .carrier-year {
+    width: 100%;
+  }
+  .carrier-item .carrier-content {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style_20240427221553.css.map */
